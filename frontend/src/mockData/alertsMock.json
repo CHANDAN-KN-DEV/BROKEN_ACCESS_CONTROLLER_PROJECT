@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ALT-9041",
+    "severity": "Critical",
+    "type": "Unauthorized Access Attempt",
+    "sourceIp": "198.51.100.42",
+    "userAffected": "admin.internal@cyberdefense.io",
+    "timestamp": "2026-06-06 13:42:01",
+    "status": "Active",
+    "description": "Multiple brute-force attempts detected against root admin panel from blacklisted IP."
+  },
+  {
+    "id": "ALT-8922",
+    "severity": "Critical",
+    "type": "SQL Injection Detected",
+    "sourceIp": "203.0.113.115",
+    "userAffected": "Anonymous",
+    "timestamp": "2026-06-06 13:15:30",
+    "status": "Investigating",
+    "description": "Malicious payload detected in API request parameter '/api/users/profile?id=UNION SELECT'."
+  },
+  {
+    "id": "ALT-7821",
+    "severity": "High",
+    "type": "Privilege Escalation",
+    "sourceIp": "192.168.1.145",
+    "userAffected": "bob.v@cyberdefense.io",
+    "timestamp": "2026-06-06 11:22:05",
+    "status": "Active",
+    "description": "User Bob Vance attempted to call admin endpoint '/api/admin/system-settings' without valid permissions."
+  },
+  {
+    "id": "ALT-6540",
+    "severity": "High",
+    "type": "Data Exfiltration Threat",
+    "sourceIp": "185.220.101.4",
+    "userAffected": "j.connor@cyberdefense.io",
+    "timestamp": "2026-06-06 08:05:40",
+    "status": "Resolved",
+    "description": "Abnormally high egress bandwidth usage detected (5.2 GB in 3 minutes) matching backup schedules but from unrecognized subnet."
+  },
+  {
+    "id": "ALT-5311",
+    "severity": "Medium",
+    "type": "Unusual Login Time",
+    "sourceIp": "45.227.254.12",
+    "userAffected": "d.miller@cyberdefense.io",
+    "timestamp": "2026-06-05 03:14:22",
+    "status": "Resolved",
+    "description": "Successful authentication from Operator David Miller outside standard operational hours (UTC+5:30 03:14 AM)."
+  },
+  {
+    "id": "ALT-4103",
+    "severity": "Medium",
+    "type": "Multiple API Key Failures",
+    "sourceIp": "192.168.1.12",
+    "userAffected": "DevEnvironment",
+    "timestamp": "2026-06-04 15:42:19",
+    "status": "Resolved",
+    "description": "Development agent failed authentication checks 15 times within 1 minute. Probable configuration error."
+  }
+]

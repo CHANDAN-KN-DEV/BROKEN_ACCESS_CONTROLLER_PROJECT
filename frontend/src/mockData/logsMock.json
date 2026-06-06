@@ -1,0 +1,92 @@
+[
+  {
+    "id": "LOG-1001",
+    "timestamp": "2026-06-06 13:38:10",
+    "actor": "sarah.c@cyberdefense.io",
+    "action": "USER_DELETE",
+    "status": "Success",
+    "ipAddress": "192.168.1.10",
+    "details": "Deleted user account USR-009 (test.user@cyberdefense.io)"
+  },
+  {
+    "id": "LOG-1002",
+    "timestamp": "2026-06-06 13:35:10",
+    "actor": "bob.v@cyberdefense.io",
+    "action": "USER_LOGIN",
+    "status": "Success",
+    "ipAddress": "192.168.1.120",
+    "details": "User successfully logged in via Web UI."
+  },
+  {
+    "id": "LOG-1003",
+    "timestamp": "2026-06-06 13:10:45",
+    "actor": "sarah.c@cyberdefense.io",
+    "action": "USER_LOGIN",
+    "status": "Success",
+    "ipAddress": "192.168.1.10",
+    "details": "Administrator logged in with multi-factor authentication (MFA)."
+  },
+  {
+    "id": "LOG-1004",
+    "timestamp": "2026-06-06 12:45:12",
+    "actor": "j.connor@cyberdefense.io",
+    "action": "USER_LOGIN",
+    "status": "Success",
+    "ipAddress": "192.168.1.15",
+    "details": "Operator logged in from authorized subnet."
+  },
+  {
+    "id": "LOG-1005",
+    "timestamp": "2026-06-06 12:20:18",
+    "actor": "admin.internal@cyberdefense.io",
+    "action": "USER_LOGIN",
+    "status": "Failure",
+    "ipAddress": "198.51.100.42",
+    "details": "Failed login attempt: Invalid credentials provided."
+  },
+  {
+    "id": "LOG-1006",
+    "timestamp": "2026-06-06 11:22:05",
+    "actor": "bob.v@cyberdefense.io",
+    "action": "ACCESS_VIOLATION",
+    "status": "Failure",
+    "ipAddress": "192.168.1.145",
+    "details": "Attempted unauthorized GET request to /api/admin/system-settings (Access Denied)."
+  },
+  {
+    "id": "LOG-1007",
+    "timestamp": "2026-06-06 10:15:32",
+    "actor": "sarah.c@cyberdefense.io",
+    "action": "USER_UPDATE",
+    "status": "Success",
+    "ipAddress": "192.168.1.10",
+    "details": "Modified role of user USR-002 from User to Operator."
+  },
+  {
+    "id": "LOG-1008",
+    "timestamp": "2026-06-06 09:30:11",
+    "actor": "SYSTEM",
+    "action": "POLICY_UPDATE",
+    "status": "Success",
+    "ipAddress": "127.0.0.1",
+    "details": "Auto-updated firewall rule definitions (Signature DB Version: 3.489.12)"
+  },
+  {
+    "id": "LOG-1009",
+    "timestamp": "2026-06-05 21:04:55",
+    "actor": "alice.v@cyberdefense.io",
+    "action": "LOG_EXPORT",
+    "status": "Success",
+    "ipAddress": "192.168.1.50",
+    "details": "Exported audit logs for the period 2026-06-01 to 2026-06-05."
+  },
+  {
+    "id": "LOG-1010",
+    "timestamp": "2026-06-05 09:12:00",
+    "actor": "sarah.c@cyberdefense.io",
+    "action": "USER_SUSPEND",
+    "status": "Success",
+    "ipAddress": "192.168.1.10",
+    "details": "Suspended user account USR-003 (alice.v@cyberdefense.io) due to inactivity."
+  }
+]

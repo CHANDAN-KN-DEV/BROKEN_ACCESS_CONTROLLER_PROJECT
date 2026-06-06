@@ -1,0 +1,47 @@
+[
+  {
+    "id": "USR-001",
+    "name": "Sarah Connor",
+    "email": "sarah.c@cyberdefense.io",
+    "role": "Admin",
+    "status": "Active",
+    "lastActive": "2026-06-06 13:10:45",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Sarah"
+  },
+  {
+    "id": "USR-002",
+    "name": "John Connor",
+    "email": "j.connor@cyberdefense.io",
+    "role": "Operator",
+    "status": "Active",
+    "lastActive": "2026-06-06 12:45:12",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=John"
+  },
+  {
+    "id": "USR-003",
+    "name": "Alice Vance",
+    "email": "alice.v@cyberdefense.io",
+    "role": "Auditor",
+    "status": "Suspended",
+    "lastActive": "2026-06-05 09:12:00",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Alice"
+  },
+  {
+    "id": "USR-004",
+    "name": "Bob Vance",
+    "email": "bob.v@cyberdefense.io",
+    "role": "User",
+    "status": "Active",
+    "lastActive": "2026-06-06 13:35:10",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Bob"
+  },
+  {
+    "id": "USR-005",
+    "name": "David Miller",
+    "email": "d.miller@cyberdefense.io",
+    "role": "Operator",
+    "status": "Inactive",
+    "lastActive": "2026-06-01 17:30:22",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=David"
+  }
+]

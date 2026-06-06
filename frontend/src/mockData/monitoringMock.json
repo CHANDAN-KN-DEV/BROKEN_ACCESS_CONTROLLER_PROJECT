@@ -1,0 +1,50 @@
+{
+  "apiRequests": [
+    { "id": "REQ-201", "endpoint": "/api/v1/auth/login", "method": "POST", "status": 200, "responseTime": "45ms", "timestamp": "13:42:01", "ip": "198.51.100.42" },
+    { "id": "REQ-202", "endpoint": "/api/v1/users", "method": "GET", "status": 200, "responseTime": "120ms", "timestamp": "13:41:55", "ip": "192.168.1.10" },
+    { "id": "REQ-203", "endpoint": "/api/v1/admin/settings", "method": "PUT", "status": 403, "responseTime": "12ms", "timestamp": "13:40:12", "ip": "192.168.1.145" },
+    { "id": "REQ-204", "endpoint": "/api/v1/alerts/active", "method": "GET", "status": 200, "responseTime": "85ms", "timestamp": "13:39:50", "ip": "192.168.1.15" },
+    { "id": "REQ-205", "endpoint": "/api/v1/logs/export", "method": "POST", "status": 201, "responseTime": "1450ms", "timestamp": "13:38:10", "ip": "192.168.1.50" }
+  ],
+  "failedLogins": [
+    { "id": "FL-01", "username": "admin.internal@cyberdefense.io", "ip": "198.51.100.42", "timestamp": "2026-06-06 13:42:01", "reason": "Password mismatch", "location": "United States" },
+    { "id": "FL-02", "username": "superadmin", "ip": "198.51.100.42", "timestamp": "2026-06-06 13:41:45", "reason": "User does not exist", "location": "United States" },
+    { "id": "FL-03", "username": "guest_access", "ip": "82.102.23.189", "timestamp": "2026-06-06 12:05:12", "reason": "Disabled account", "location": "Netherlands" },
+    { "id": "FL-04", "username": "j.connor@cyberdefense.io", "ip": "192.168.1.15", "timestamp": "2026-06-06 08:30:19", "reason": "Expired session token", "location": "Internal Subnet" }
+  ],
+  "activeSessions": [
+    { "id": "SES-901", "user": "Sarah Connor", "role": "Admin", "ip": "192.168.1.10", "device": "macOS / Chrome", "loginTime": "2026-06-06 13:10:45", "duration": "31 mins" },
+    { "id": "SES-902", "user": "John Connor", "role": "Operator", "ip": "192.168.1.15", "device": "Ubuntu / Firefox", "loginTime": "2026-06-06 12:45:12", "duration": "56 mins" },
+    { "id": "SES-903", "user": "Bob Vance", "role": "User", "ip": "192.168.1.120", "device": "Windows / Edge", "loginTime": "2026-06-06 13:35:10", "duration": "6 mins" }
+  ],
+  "chartsData": {
+    "threatsOverTime": [
+      { "time": "08:00", "critical": 0, "high": 1, "medium": 2 },
+      { "time": "09:00", "critical": 0, "high": 1, "medium": 3 },
+      { "time": "10:00", "critical": 1, "high": 2, "medium": 4 },
+      { "time": "11:00", "critical": 1, "high": 4, "medium": 3 },
+      { "time": "12:00", "critical": 2, "high": 3, "medium": 5 },
+      { "time": "13:00", "critical": 2, "high": 2, "medium": 6 }
+    ],
+    "userStats": [
+      { "name": "Admins", "count": 1 },
+      { "name": "Operators", "count": 2 },
+      { "name": "Auditors", "count": 1 },
+      { "name": "Users", "count": 1 }
+    ],
+    "monthlyTraffic": [
+      { "month": "Jan", "apiRequests": 2400, "maliciousRequests": 40 },
+      { "month": "Feb", "apiRequests": 3200, "maliciousRequests": 65 },
+      { "month": "Mar", "apiRequests": 4500, "maliciousRequests": 90 },
+      { "month": "Apr", "apiRequests": 5100, "maliciousRequests": 120 },
+      { "month": "May", "apiRequests": 6800, "maliciousRequests": 180 },
+      { "month": "Jun", "apiRequests": 8200, "maliciousRequests": 210 }
+    ],
+    "threatTypes": [
+      { "name": "Brute Force", "value": 40 },
+      { "name": "SQL Injection", "value": 30 },
+      { "name": "Privilege Escalation", "value": 15 },
+      { "name": "Data Egress", "value": 15 }
+    ]
+  }
+}
